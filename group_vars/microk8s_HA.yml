@@ -7,10 +7,6 @@ microk8s_plugins:
   dns: true               # CoreDNS
   helm3: true             # Helm 3 - Kubernetes package manager
   ingress: true           # Ingress controller for external access
-  metrics-server: true    # K8s Metrics Server for API access to service
-                          # metrics
-  storage: false          # Storage class; allocates storage from host
-                          # directory
 
 microk8s_registry_size: 20Gi
 
