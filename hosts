@@ -1,0 +1,21 @@
+[microk8s_HA]
+ks-0.local ansible_host=10.0.0.20
+ks-1.local ansible_host=10.0.0.21
+ks-2.local ansible_host=10.0.0.22
+ks-3.local ansible_host=10.0.0.23
+ks-4.local ansible_host=10.0.0.24
+
+[availability_zone_mon]
+ks-0.local ansible_host=10.0.0.20
+
+[availability_zone_tue]
+ks-1.local ansible_host=10.0.0.21
+
+[availability_zone_wed]
+ks-2.local ansible_host=10.0.0.22
+
+[availability_zone_thu]
+ks-3.local ansible_host=10.0.0.23
+
+[availability_zone_fri]
+ks-4.local ansible_host=10.0.0.24
