@@ -1,10 +1,9 @@
 ---
-- name: k8s
+- name: microk8s
   hosts: all
   become: true
   tags:
-    - k8s
+    - microk8s
   roles:
-    - role: racqspace.unattended_upgrades
     - role: racqspace.microk8s
 ...
