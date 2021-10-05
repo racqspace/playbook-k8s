@@ -1,1 +1,1 @@
-my-microk8s-server
+localhost ansible_connection=local
